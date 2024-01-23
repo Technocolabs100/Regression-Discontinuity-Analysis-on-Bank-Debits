@@ -17,9 +17,13 @@ This project explores the impact of recovery strategies implemented by a bank af
  **• Analysis Steps:**
 
 **1. Data Transformation:** Apply Box-Cox transformation and standard scaling to numerical columns.
+
 **2. Exploratory Data Analysis**: Visualize age as a function of expected recovery amount, focusing on the transition between Level 0 and Level 1.
+
 **3. Statistical Tests:** Conduct t-tests for age and chi-square tests for sex to ensure similarity above and below the USD1000 threshold.
+
 **4. Graphical Analysis:** Create scatter plots to explore the relationship between expected and actual recovery amounts.
+
 **5. Regression Modeling:** Build regression models to quantify the impact of recovery strategies.
 
 ## Results
@@ -46,7 +50,10 @@ This project explores the impact of recovery strategies implemented by a bank af
 • Built regression models to quantify the impact of recovery strategies.
 
 ## Conclusion
+
 •Identified a significant impact of the recovery strategy around USD1000.
+
 •Established a positive relationship between expected and actual recovery amounts.
+
 •Emphasized the importance of weighing observed impact against associated costs for optimizing recovery strategies.
 
