@@ -20,3 +20,28 @@ Exploratory Data Analysis: Visualize age as a function of expected recovery amou
 Statistical Tests: Conduct t-tests for age and chi-square tests for sex to ensure similarity above and below the USD1000 threshold.
 Graphical Analysis: Create scatter plots to explore the relationship between expected and actual recovery amounts.
 Regression Modeling: Build regression models to quantify the impact of recovery strategies.
+
+## Results
+Data Transformation
+Applied Box-Cox transformation and standard scaling to numerical columns.
+Exploratory Data Analysis
+Examined age as a function of expected recovery amount around the USD1000 threshold.
+Statistical Tests
+Age vs. Expected Recovery Amount:
+
+Conducted a t-test to compare average age above and below USD1000.
+Result: Significant difference in average age.
+Sex vs. Expected Recovery Amount:
+
+Conducted a chi-square test to compare the percentage of male customers above and below USD1000.
+Result: No significant difference in gender distribution.
+Graphical Analysis
+Created scatter plots to visualize the relationship between expected and actual recovery amounts.
+Regression Modeling
+Built regression models to quantify the impact of recovery strategies.
+
+## Conclusion
+Identified a significant impact of the recovery strategy around USD1000.
+Established a positive relationship between expected and actual recovery amounts.
+Emphasized the importance of weighing observed impact against associated costs for optimizing recovery strategies.
+
