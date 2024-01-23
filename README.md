@@ -1,8 +1,9 @@
 # Regression Discontinuity Analysis on Bank Debits
-Project Overview
+
+## Project Overview
 This project explores the impact of recovery strategies implemented by a bank after declaring a debt uncollectable. The primary focus is on assessing whether assigning customers to a higher recovery plan, especially around the expected recovery amount of USD1000, results in a significant increase in actual recovery amounts. The analysis involves statistical tests, graphical exploratory data analysis, and regression modeling to gain insights into the effectiveness of recovery strategies.
 
-Objectives
+## Objectives
 Examine how the bank assigns recovery plans at thresholds, particularly around USD1000.
 Ensure age and sex variables don't significantly differ above and below USD1000.
 Analyze actual recovery amounts to identify any discontinuity around the USD1000 threshold.
@@ -12,7 +13,7 @@ Validate the impact by confirming consistent results across different analysis w
 Project Structure
 Data: The dataset includes columns such as expected_recovery_amount, actual_recovery_amount, recovery_strategy, age, and sex.
 
-Analysis Steps:
+## Analysis Steps:
 
 Data Transformation: Apply Box-Cox transformation and standard scaling to numerical columns.
 Exploratory Data Analysis: Visualize age as a function of expected recovery amount, focusing on the transition between Level 0 and Level 1.
